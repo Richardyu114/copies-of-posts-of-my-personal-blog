@@ -1,5 +1,7 @@
 ## 通过备份个人博客的内容来练习Git的版本控制
 
+### 步骤
+
 1.新建一个文件夹`copies_of_posts_of_my_personal_blog`，该目录下有`_posts`和`PaperWeekly`两个子文件夹
 
 2.打开git bash，进入`copies_of_posts_of_my_personal_blog`目录
@@ -63,4 +65,10 @@ git remote add origin https://github.com/你的用户名/仓库名字.git
 ```
 git push -u origin master
 ```
+
+
+
+### Some Tips
+
+每次修改完文件都得使用`git add`命令，显得有点麻烦，之后可以在提交时输入`git commit -a`，Git 就会自动把所有已经跟踪过的文件暂存起来一并提交。
 
