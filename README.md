@@ -70,5 +70,5 @@ git push -u origin master
 
 ### Some Tips
 
-每次修改完文件都得使用`git add`命令，显得有点麻烦，之后可以在提交时输入`git commit -a`，Git 就会自动把所有已经跟踪过的文件暂存起来一并提交。
+1.每次修改完文件都得使用`git add`命令，显得有点麻烦，之后可以在提交时输入`git commit -a -m "your message"`，Git 就会自动把所有已经跟踪过的文件暂存起来一并提交。
 
